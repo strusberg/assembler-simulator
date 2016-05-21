@@ -1,23 +1,37 @@
-# Simple 8-bit Assembler Simulator
-A simulator which provides a simplified assembler syntax (based on NASM) and is simulating a x86 like cpu. Press Help inside the simulator to see an overview about the supported instructions.
+# Simulador de un Ensamblador de 8-bits
 
-####<a href="http://schweigi.github.io/assembler-simulator/index.html" target="_blank">TRY IT ONLINE</a>
+Este proyecto es un fork del <a href="https://github.com/Schweigi/assembler-simulator"> "Assembler Simulator"</a> realizado por <a href="https://github.com/Schweigi">Marco Schweighauser</a>. El simulador provee un ensamblador de sintaxis simplificada (basado en NASM) y simula un CPU del tipo x86. Puede hacer click en el enlace "Ayuda" (Help), para una vista general, de las instrucciones implementadas en el simulador.
 
-### Features
-- 8-bit CPU
-- 4 general purpose registers
-- 256 bytes of memory
-- Console output
+####<a href="http://schweigi.github.io/assembler-simulator/index.html" target="_blank">PROBAR EN LINEA - VERSION ORIGINAL</a>
 
-### How to build
-Make sure you have <a href="http://www.gruntjs.com/" target="_blank">Grunt</a> installed to compile the `asmsimulator.js` script.
-Run `grunt` to build the project.
+### Caracteristicas:
+- CPU de 8-bits
+- 4 registros de proposito general
+- 256 bytes de memoria
+- Salida a Consola
+
+### Creando el simulador.
+Debe verificar que tenga instalado <a href="http://www.gruntjs.com/" target="_blank">Grunt</a>, para poder compilar el script `asmsimulator.js` 
+
+Corra `grunt` para contrur el proyecto.
 
 ### Background
-A technical introduction is available on my blog: [www.mschweighauser.com](https://www.mschweighauser.com/make-your-own-assembler-simulator-in-javascript-part1/).
+Una introducción técnica (en inglés), está disponible en el blog de Marco: [www.mschweighauser.com](https://www.mschweighauser.com/make-your-own-assembler-simulator-in-javascript-part1/).
 
-### License
-**The MIT License**
+### Licencia 
+**La licencia MIT**
+
+Copyright (c) 2016 Ricardo Strusberg
+
+Se concede permiso por la presente, de forma gratuita, a cualquier persona que obtenga una copia de este software y de los archivos de documentación asociados (el "Software"), para utilizar el Software sin restricción, incluyendo sin limitación los derechos de usar, copiar, modificar, fusionar, publicar, distribuir, sublicenciar, y/o vender copias de este Software, y para permitir a las personas a las que se les proporcione el Software a hacer lo mismo, sujeto a las siguientes condiciones:
+
+El aviso de copyright anterior y este aviso de permiso se incluirán en todas las copias o partes sustanciales del Software.
+
+EL SOFTWARE SE PROPORCIONA "TAL CUAL", SIN GARANTÍA DE NINGÚN TIPO, EXPRESA O IMPLÍCITA, INCLUYENDO PERO NO LIMITADO A GARANTÍAS DE COMERCIALIZACIÓN, IDONEIDAD PARA UN PROPÓSITO PARTICULAR Y NO INFRACCIÓN. EN NINGÚN CASO LOS AUTORES O TITULARES DEL COPYRIGHT SERÁN RESPONSABLES DE NINGUNA RECLAMACIÓN, DAÑOS U OTRAS RESPONSABILIDADES, YA SEA EN UN LITIGIO, AGRAVIO O DE OTRO MODO, QUE SURJA DE O EN CONEXIÓN CON EL SOFTWARE O EL USO U OTRO TIPO DE ACCIONES EN EL SOFTWARE.
+
+### Licencia de la versión original en inglés
+
+**The MIT License** 
 
 Copyright (c) 2015 Marco Schweighauser
 
